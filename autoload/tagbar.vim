@@ -54,7 +54,7 @@ let s:statusline_in_use = 0
 let s:init_done = 0
 
 " 0: not checked yet; 1: checked and found; 2: checked and not found
-let s:checked_ctags       = 0
+let s:checked_ctags       = 1 " Hacked away check to make it work with gotags
 let s:checked_ctags_types = 0
 let s:ctags_is_uctags     = 0
 
